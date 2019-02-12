@@ -5,7 +5,6 @@ const Contacto = () => (
 
     <Layout>
         <Formulario>
-            
         </Formulario>
     </Layout>
 )

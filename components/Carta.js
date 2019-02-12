@@ -1,8 +1,25 @@
-import Layout from './Layout'
+import Layout from './Layout' 
+
+class containerParaFotos extends React.Component {
+    render() {
+        <div>
+            {this.props.children}
+        </div>
+    }
+}
+
+const containerStyle = {
+
+    gridTemplateColumn: '50% 50%',
+    gridTemplateRows: '30% 30% 30%',
+    margin: 20,
+}
 
 
 const CartaDeFoto = () => (
 
+
+    <div className={containerParaFotos} style={containerStyle}>
         <div className="card mb-3">
                 <h3 className="card-header">Card header</h3>
             <div className="card-body">
@@ -21,6 +38,7 @@ const CartaDeFoto = () => (
             2 days ago
             </div>
         </div>
+    </div>
 )
 
 export default CartaDeFoto

@@ -3,12 +3,18 @@ import Layout from '../components/Layout'
 import CartaDeFoto from '../components/Carta'
 
 
+
 const Galeria = () => (
+
     <Layout>
-        <CartaDeFoto>
-            
-        </CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
+        <CartaDeFoto></CartaDeFoto>
     </Layout>
+
 )
 
 

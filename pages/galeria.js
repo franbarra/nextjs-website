@@ -7,14 +7,29 @@ import CartaDeFoto from '../components/Carta'
 const Galeria = () => (
 
     <Layout>
-        <CartaDeFoto></CartaDeFoto>
-        <CartaDeFoto></CartaDeFoto>
-        <CartaDeFoto></CartaDeFoto>
-        <CartaDeFoto></CartaDeFoto>
-        <CartaDeFoto></CartaDeFoto>
-        <CartaDeFoto></CartaDeFoto>
+        <div className="row align-items-center">
+            <div className="col">
+              <CartaDeFoto></CartaDeFoto>
+            </div>
+            <div className="col">
+              <CartaDeFoto></CartaDeFoto>
+            </div>
+            <div className="col">
+                <CartaDeFoto></CartaDeFoto>
+            </div>
+        </div>
+        <div className="row align-items-center">
+            <div className="col">
+                <CartaDeFoto></CartaDeFoto>
+            </div>
+            <div className="col">
+                <CartaDeFoto></CartaDeFoto>
+            </div>
+            <div className="col">
+                <CartaDeFoto></CartaDeFoto>
+            </div>
+        </div>
     </Layout>
-
 )
 
 

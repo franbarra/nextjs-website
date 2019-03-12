@@ -11,12 +11,14 @@ const layoutStyle = {
 const Layout = (props) => (
   <div class="layoutStyle">
     <Head>
-      <title>Julieta Nogueira</title>
-      <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css" />
-      <link rel="stylesheet" href="../css/style.css" />
+        <meta charSet="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="author" content="Francisco Barraguirre" />
+        <title>Julieta Nogueira</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css" />
     </Head>
     <Navbar />
-    <div className="container">
+    <div className="container-fluid">
       {props.children}
     </div>
   </div>

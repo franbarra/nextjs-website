@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
+
 const Formulario = () => (
 
-<form>
+<div className="container">
+    <form>
     <fieldset>
         <legend>Enviame tu consulta</legend>
         <div className="form-group row">
@@ -26,10 +28,11 @@ const Formulario = () => (
         </div>
         <div className="form-group">
         <select className="custom-select">
-        <option selected="">Sobre que se trata tu consulta?</option>
+        <option selected="">Sobre que trata tu consulta?</option>
         <option value="1">Precio</option>
         <option value="2">Redes Sociales</option>
-        <option value="3">Otros</option>
+        <option value="3">Contratacion</option>
+        <option value="4">Otros</option>
         </select>
     </div>
         <div class="form-group">
@@ -39,6 +42,7 @@ const Formulario = () => (
         <button type="submit" class="btn btn-primary">Submit</button>
     </fieldset>
     </form>
+</div>
 )
 
 export default Formulario

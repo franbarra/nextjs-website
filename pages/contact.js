@@ -4,8 +4,7 @@ import Formulario from '../components/Formulario'
 const Contacto = () => (
 
     <Layout>
-        <Formulario>
-        </Formulario>
+        <Formulario />
     </Layout>
 )
 

@@ -3,7 +3,10 @@ import Layout from '../components/Layout'
 
 const About = () => (
     <Layout>
-        <p>Welcome to the about page</p>
+        <p style={{margin: 20}}>
+        Welcome to the about page
+        </p>
+
     </Layout>
 )
 

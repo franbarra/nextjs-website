@@ -1,13 +1,9 @@
 import Link from 'next/link';
 
 
-const navbarMargin = {
-    marginBottom: 20,
-}
-
 const Navbar = () => (
 
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary" style={navbarMargin}>
+    <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <a className="navbar-brand">Portfolio</a>
 
         <div className="collapse navbar-collapse" id="navbarColor01">
